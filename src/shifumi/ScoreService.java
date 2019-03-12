@@ -46,4 +46,5 @@ public class ScoreService extends Application{
 	      "{ \"wins\":\"%s\", \"losses\":\"%s\", \"ties\": \"%s\"}";
 	   return String.format(pattern,  Score.WINS, Score.LOSSES, Score.TIES );   
 	}
+	
 }
